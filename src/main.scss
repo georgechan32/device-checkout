@@ -1,0 +1,139 @@
+$nav-width: 150px;
+$gutter: 16px;
+$border: 1px solid #bdbdbd;
+$gutter-xxlarge: 55px;
+
+@import './css/history';
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  padding: $gutter;
+}
+
+.circular-progress {
+  margin: auto;
+}
+
+ul {
+  line-height: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: $gutter-xxlarge;
+}
+
+.left-nav {
+  height: calc(100% - 64px);
+  position: absolute;
+  width: $nav-width;
+}
+
+.left-nav.opened {
+  left: 0;
+  transition: 1s;
+}
+
+.left-nav.closed {
+  left: -$nav-width;
+  transition: 1s;
+}
+
+.device-button-group {
+  float: right;
+  margin: 8px 0;
+  widows: 100%;
+}
+
+.device-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rent-button {
+  float: right;
+  text-align: center;
+}
+
+.rent-menu {
+  padding: 0 $gutter-xxlarge;
+}
+
+.form-card {
+  box-shadow: none;
+  padding: $gutter;
+}
+
+.form-closed {
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.first-expansion {
+  max-height: 400px;
+}
+
+.second-expansion {
+  max-height: 600px;
+}
+
+.form {
+  overflow: hidden;
+  transition: .5s;
+}
+
+.device-card {
+  overflow: hidden;
+  transition: .5s;
+}
+
+.text-fields {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0 70px 16px;
+}
+
+.notes-field {
+  width: 100%;
+}
+
+.renter-field {
+  width: 100%;
+
+  @media all and (min-width: 800px) {
+    width: 45%;
+  }
+}
+
+.rent-submit {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+
+  @media all and (min-width: 800px) {
+    flex-flow: row wrap;
+  }
+}
+
+.secondary-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-format {
+  text-transform: capitalize;
+}
+
+.feedback-btn {
+  border-top: $border;
+}

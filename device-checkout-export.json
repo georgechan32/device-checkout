@@ -1,0 +1,163 @@
+{
+  "device-types" : {
+    "misc" : {
+      "name" : "misc"
+    },
+    "smartphones" : {
+      "name" : "smartphones"
+    },
+    "tablets" : {
+      "name" : "tablets"
+    }
+  },
+  "devices" : {
+    "misc" : {
+      "ffexs" : {
+        "available" : "Yes",
+        "carrier" : "",
+        "name" : "Leap Motion",
+        "os" : "",
+        "os-version" : "",
+        "serial" : "85719200425"
+      }
+    },
+    "smartphones" : {
+      "if5" : {
+        "available" : "Yes",
+        "avatar" : "http://thebrainfever.com/images/apple-logos/Silhouette.png",
+        "carrier" : "AT&T",
+        "history" : {
+          "-KCbhX3jCX49_bhIaWE0" : {
+            "approver" : "Test",
+            "date" : "Fri, 11 Mar 2016 22:04:56 GMT",
+            "name" : "Test",
+            "notes" : "",
+            "type" : "rent"
+          },
+          "-KCbiNekhODh5jCW-hYH" : {
+            "date" : "Fri, 11 Mar 2016 22:08:46 GMT",
+            "name" : "Test",
+            "notes" : "",
+            "type" : "return"
+          },
+          "-KCbiQ7uxSgJ51-QwRl-" : {
+            "approver" : "sdf",
+            "date" : "Fri, 11 Mar 2016 22:08:36 GMT",
+            "name" : "TE",
+            "notes" : "",
+            "type" : "rent"
+          },
+          "-KCcBozIherAWmg67FCT" : {
+            "date" : "Sat, 12 Mar 2016 00:21:47 GMT",
+            "name" : "Test",
+            "notes" : "",
+            "type" : "return"
+          },
+          "-KCcBrfIqOPFFp_J6Rip" : {
+            "approver" : "sdf",
+            "date" : "Sat, 12 Mar 2016 00:21:17 GMT",
+            "name" : "Test",
+            "notes" : "",
+            "type" : "rent"
+          },
+          "-KCcJBdStGIvz3xDG58u" : {
+            "date" : "Sat, 12 Mar 2016 00:53:59 GMT",
+            "name" : "George",
+            "notes" : "",
+            "type" : "return"
+          },
+          "-KD-_3n_6dz9Oafmro3I" : {
+            "approver" : "Test",
+            "date" : "Wed, 16 Mar 2016 17:58:30 GMT",
+            "name" : "Test",
+            "notes" : "",
+            "type" : "rent"
+          },
+          "-KD-cdQ8EFlhqjliTsJp" : {
+            "date" : "Wed, 16 Mar 2016 18:14:12 GMT",
+            "name" : "Test",
+            "notes" : "",
+            "type" : "return"
+          }
+        },
+        "name" : "iPhone 5",
+        "os" : "Apple",
+        "os-version" : "7.1.0",
+        "serial" : "DNRJQQUSDTTP"
+      },
+      "if6" : {
+        "available" : "No",
+        "avatar" : "http://thebrainfever.com/images/apple-logos/Silhouette.png",
+        "carrier" : "AT&T",
+        "history" : {
+          "-KCcIEhnYdWoosHQrrqB" : {
+            "approver" : "Test",
+            "date" : "Sat, 12 Mar 2016 00:22:04 GMT",
+            "name" : "Test",
+            "notes" : "",
+            "type" : "rent"
+          }
+        },
+        "name" : "iPhone 3G",
+        "os" : "Apple",
+        "os-version" : "4.2.1",
+        "serial" : "88910EH2Y7H"
+      },
+      "if6p" : {
+        "available" : "Yes",
+        "avatar" : "http://thebrainfever.com/images/apple-logos/Silhouette.png",
+        "carrier" : "AT&T",
+        "name" : "iPhone 6 Plus",
+        "os" : "Apple",
+        "os-version" : "8.4.0",
+        "serial" : "C39Q20Z7G5QQ"
+      },
+      "if6s" : {
+        "available" : "Yes",
+        "avatar" : "http://thebrainfever.com/images/apple-logos/Silhouette.png",
+        "carrier" : "AT&T",
+        "name" : "iPhone 6 S",
+        "os" : "Apple",
+        "os-version" : "9.0.2",
+        "serial" : "FK1QLK7MGRXQ"
+      },
+      "n1" : {
+        "available" : "Yes",
+        "avatar" : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSJTeP977LM9F3t32HRkcEU0HSjUnK-RRW49ODYDA_QnaOeMHgG",
+        "carrier" : "Vodafone",
+        "name" : "HTC Nexus One",
+        "os" : "Android",
+        "os-version" : "2.2.1",
+        "serial" : "HT14AP800016"
+      }
+    },
+    "tablets" : {
+      "gt3" : {
+        "available" : "Yes",
+        "avatar" : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSJTeP977LM9F3t32HRkcEU0HSjUnK-RRW49ODYDA_QnaOeMHgG",
+        "carrier" : "",
+        "name" : "Galaxy Tab 3",
+        "os" : "Anroid",
+        "os-version" : "4.4.2",
+        "serial" : "RF2F30WBTJR"
+      },
+      "ip1" : {
+        "available" : "Yes",
+        "avatar" : "http://thebrainfever.com/images/apple-logos/Silhouette.png",
+        "carrier" : "WiFi Only",
+        "name" : "iPad (1s Gen)",
+        "os" : "Apple",
+        "os-version" : "5.1.1",
+        "serial" : "GB0224GXZ39"
+      },
+      "kf1" : {
+        "available" : "Yes",
+        "carrier" : "WiFi Only",
+        "name" : "Kindle Fire (1st Gen)",
+        "os" : "Amazon",
+        "os-version" : "6.3.2",
+        "serial" : ""
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.history-title,
+.history-box {
+  border-top: $border;
+  display: flex;
+  flex-flow: row wrap;
+
+  .hist-item {
+    flex-basis: 33%;
+    flex-grow: 1;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .right {
+    text-align: right;
+  }
+}
+
+.history-title {
+  border-top: 0;
+  font-weight: bold;
+}
+
+.history-container {
+  padding: 0 $gutter-xxlarge;
+}
+
+.history-list {
+  transition: .5s;
+}
