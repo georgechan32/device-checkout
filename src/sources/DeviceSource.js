@@ -11,7 +11,6 @@ let DeviceSource = {
       if(firebaseRef) {
         firebaseRef.off();
       }
-      //console.log(state.selectedDevice.key);
       firebaseRef =
         new Firebase('https://device-checkout.firebaseio.com/devices/' + state.selectedDevice.key);
 
@@ -39,8 +38,7 @@ let DeviceSource = {
             console.log('Rent succeeded');
           }
         };
-        //var query = firebaseRef.orderByChild("serial").equalTo()
-        //console.log(state.formData.date);
+
         var updateRef = new Firebase('https://device-checkout.firebaseio.com/devices/' + state.selectedDevice.key + '/' + state.formData.serial);
         updateRef.update({available: 'No'});
         updateRef.off();
